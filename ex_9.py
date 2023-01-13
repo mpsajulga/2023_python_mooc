@@ -1,0 +1,13 @@
+"""
+Please write a program which prints out the following story. The user gives a name and a year, which should be inserted into the printout.
+
+Please type in a name: Mary
+Please type in a year: 1572
+
+Mary is a valiant knight, born in the year 1572. One morning Mary woke up to an awful racket: a dragon was approaching the village. Only Mary could save the village's residents.
+"""
+
+input_name = input("Please type in a name: ")
+input_year = input("Please type in a year: ")
+
+print(input_name + " is a valiant knight, born in the year " + input_year + "." + " One morning " + input_name + " woke up to an awful racket: a dragon was approaching the village. Only " + input_name + " could save the village's residents.")
