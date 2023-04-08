@@ -1,9 +1,11 @@
-'''Please write a program which asks the user to type in a string. 
-The program then prints out all the substrings which begin with the first character, from the shortest to the longest. 
-'''
+input_string = input("Please type in a string: ")
+length_of_string = len(input_string)
+exact_length = 20
+filler_character = "*"
+n = 0
 
-string = input("Please enter a string: ")
-
-for i in range(1, len(string) + 1):
-    substring = string[0:i]
-    print(substring)
+while length_of_string != 20:
+    length_of_string += 1
+    n += 1
+    
+print(f"{filler_character*n}{input_string}")
