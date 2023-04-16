@@ -7,3 +7,8 @@ while index != -1:
         print(input_string[index:index+3])
     index += 1 # increment index by 1 to check the next possible substring
     index = input_string.find(input_character, index) # find the next occurrence of the input character starting from the updated index
+    
+'''
+This program prints out all the substrings which are at least three characters long,
+which begins with the character specified by the user.
+It is assumed that the input string is at least three characters long.'''
